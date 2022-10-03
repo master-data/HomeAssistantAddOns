@@ -1,3 +1,7 @@
+## [1.2.1] - 2022-03-10
+### Changed
+ Added working EU gateway as default.
+
 ## [1.2.0] - 2022-03-10
 ### Changed
  Added support for amd64
