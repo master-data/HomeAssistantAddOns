@@ -1,2 +1,2 @@
 # SunGrower
-iSolarCloud integration to Home Assistant. Updated to work with latest HA/Lovelace. Based on GoSungrow.
+iSolarCloud integration to Home Assistant. Updated to support latest HA/Lovelace installation. Based on GoSungrow by MickMake.
