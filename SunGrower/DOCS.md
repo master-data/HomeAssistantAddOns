@@ -17,13 +17,11 @@ Based on original GoSunGrow addon by MickMake. Plugin refreshed for HA/Lovelace 
 ## Configuration and installation
 Make sure that you have properly configured MQTT Broker. Restart after setting up. You might need to allow anonymous access, create a new user and customize Mosquitto options - including account access controls.
 
-Copy SunGrower directory to addons/ by SMB or SSH. You can also add as a custom repository if using the github version.
+Add this GitHub repository as a custom repo in the HA UI, https://github.com/master-data/HomeAssistantAddOns. If you want to use local addon, add "SunGrower" directory to addons/ by SMB or SSH.
 
-Check updates for all addons.
+To get new and current versions, always "Check updates for all addons".
 
-Install addon from Local storage or repository addon.
-
-Set the config options.
+When your preferred way to to install the plugin has been found, please set the config options. If you fail to start, please reboot HA and asses that you really have MQTT, IPs and such working and settled. If something is not working, please check your MQTTs and reboot. And try again. Not my fault. Seriously.
 
 - sungrow_user (iSolarCloud account user)
 - sungrow_password (iSolarCloud account password)
