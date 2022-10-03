@@ -21,13 +21,17 @@ Add this GitHub repository as a custom repo in the HA UI, https://github.com/mas
 
 To get new and current versions, always "Check updates for all addons".
 
-When your preferred way to to install the plugin has been found, please set the config options. If you fail to start, please reboot HA and asses that you really have MQTT, IPs and such working and settled. If something is not working, please check your MQTTs and reboot. And try again. Not my fault. Seriously.
+When your preferred way to to install the plugin has been found, please set the config options properly. If you fail to start, please reboot HA and asses that you really have MQTT, IPs and such working and settled.
+
+If something is not working, please check your MQTTs, configuration options and reboot. And try again. This is not going to be my faulta. Seriously.
+
+Just concentrate on getting these done:
 
 - sungrow_user (iSolarCloud account user)
 - sungrow_password (iSolarCloud account password)
-- sungrow_mqtt_host (your HA local IP, not localhost!)
+- sungrow_mqtt_host (your HA local IP, not localhost)
 - sungrow_mqtt_port (1883)
-- sungrow_mqtt_user (create one and configure in MQTT Broker!)
+- sungrow_mqtt_user (create one and configure in MQTT Broker)
 - sungrow_mqtt_password (required)
 - sungrow_host (pick the one that works - https://gateway.isolarcloud.eu / https://augateway.isolarcloud.com / https://gateway.isolarcloud.com / https://gateway.isolarcloud.com.hk)
 
