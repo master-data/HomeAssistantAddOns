@@ -14,12 +14,9 @@ WORKDIR /
 COPY run.sh /
 COPY GoSungrow_amd64 /
 COPY GoSungrow_arm64 /
-#COPY get_bin.sh /
 
 RUN chmod a+x /run.sh
 RUN chmod a+x /GoSungrow_amd64
 RUN chmod a+x /GoSungrow_arm64
-#RUN chmod a+x /get_bin.sh
-#RUN /get_bin.sh
 
 CMD [ "/run.sh" ]
