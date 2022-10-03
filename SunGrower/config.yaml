@@ -1,0 +1,36 @@
+name: "SunGrower"
+description: "SunGrow iSolarCloud-integration"
+version: "1.2.0"
+slug: "sun_grower"
+hassio_api: true
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+#ports:
+#  8001/tcp: 8001
+startup: services
+options:
+  sungrow_host: "https://portaleu.isolarcloud.com"
+  sungrow_user: ""
+  sungrow_password: ""
+  sungrow_mqtt_host: "localhost"
+  sungrow_mqtt_port: "1883"
+  sungrow_mqtt_password: ""
+  sungrow_mqtt_user: ""
+  sungrow_debug: false
+  sungrow_appkey: "93D72E60331ABDCDC7B39ADC2D1F32B3"
+  sungrow_timeout: 60
+schema:
+  sungrow_host: str
+  sungrow_user: str
+  sungrow_password: str
+  sungrow_mqtt_host: str
+  sungrow_mqtt_port: str
+  sungrow_mqtt_password: str
+  sungrow_mqtt_user: str
+  sungrow_debug: bool
+  sungrow_appkey: str
+  sungrow_timeout: int
