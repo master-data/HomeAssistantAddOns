@@ -1,7 +1,7 @@
 
 ## [1.2.2] - 2022-03-10
 ### Changed
- Clean
+ Cleaned up the installation.
 
 ## [1.2.1] - 2022-03-10
 ### Changed
