@@ -1,6 +1,6 @@
 name: "SunGrower"
 description: "SunGrow iSolarCloud-integration"
-version: "1.2.2"
+version: "1.2.3"
 slug: "sun_grower"
 hassio_api: true
 init: false

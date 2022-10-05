@@ -1,3 +1,6 @@
+## [1.2.3] - 2022-05-10
+### Changed
+ Added infinite looping if GoSunGrow exits.
 
 ## [1.2.2] - 2022-03-10
 ### Changed

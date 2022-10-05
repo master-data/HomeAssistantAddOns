@@ -58,4 +58,9 @@ ${SUNGROW_EXE} api login
 
 bashio::log.info "Syncing data from gateway..."
 
+# loop
+while true
+do
 ${SUNGROW_EXE} mqtt sync
+sleep 1
+done

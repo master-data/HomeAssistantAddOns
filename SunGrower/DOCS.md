@@ -23,9 +23,9 @@ To get new and current versions, always "Check updates for all addons".
 
 When your preferred way to to install the plugin has been found, please set the config options properly. If you fail to start, please reboot HA and asses that you really have MQTT, IPs and such working and settled.
 
-If something is not working, please check your MQTTs, configuration options and reboot. And try again. This is not going to be my faulta. Seriously.
+If something is not working, please check your MQTTs, configuration options, empty your cache, switch browser and reboot. And try again.
 
-Just concentrate on getting these done:
+Just concentrate on getting these configuration parameters done:
 
 - sungrow_user (iSolarCloud account user)
 - sungrow_password (iSolarCloud account password)
