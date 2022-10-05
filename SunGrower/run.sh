@@ -63,4 +63,5 @@ while true
 do
 ${SUNGROW_EXE} mqtt sync
 sleep 1
+bashio::log.info "Restarting GoSunGrow..."
 done
